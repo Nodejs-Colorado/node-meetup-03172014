@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Node.JS Colorado - 3/17/2014</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="css/reveal.min.css">
+    <link rel="stylesheet" href="css/theme/default.css" id="theme">
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+          <section data-markdown>
+            <script type="text/template">
+              ## Node.JS Colorado Meetup
+              <br>
+              ### 3/17/2014
+            </script>
+          </section>
+          <section data-markdown>
+            <script type="text/template">
+              ## Michael Herman: About
+              - Back-end developer in Ruby and Python for over three years.
+              - Wrote a Python course for learning web development - Real Python (RealPython.com).
+              - Mentor beginning developers in Python, Ruby, Node, and Front-End technologies.
+              - Most importantly, I love Node. 
+              - Been working with Node/Express for about 6 months.
+            </script>
+          </section>
+          <section data-markdown>
+            <script type="text/template">
+            ## Location
+            <br>
+            ### Boulder or Denver?
+            </script>
+          </section>
+          <section data-markdown>
+            <script type="text/template">
+              ## Both!
+              - Twice a month. Topics will be similar.
+              - Reach out to us about scheduling topics.
+              - Prefer Mondays or Wednesdays?
+              - Denver Hacknight?
+            </script>
+          </section>
+          <section data-markdown>
+            <script type="text/template">
+              ## Collaborative Effort
+              We welcome anyone who wants to get involed. Lead talks. Rub meetups. Anything. We will support you.
+            </script>
+          </section>
+         <section data-markdown>
+            <script type="text/template">
+              ## NodeJSColoardo.com
+              Let's build it!
+            </script>
+          </section>
+         <section data-markdown>
+            <script type="text/template">
+              ## New to Node?
+              Interested in a beginning lecture?
+            </script>
+          </section>
+         <section data-markdown>
+            <script type="text/template">
+              ## Survey
+              ![test](survey.png)
+            </script>
+          </section>
+         <section data-markdown>
+            <script type="text/template">
+              ## Swag
+              ### Yeah. We got some.
+            </script>
+          </section>
+         <section data-markdown>
+            <script type="text/template">
+              ## Let's begin.
+            </script>
+          </section>
+        </div>
+      </div>
+      <script src="lib/js/head.min.js"></script>
+      <script src="js/reveal.min.js"></script>
+      <script>
+        // Full list of configuration options available here:
+        // https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
+
+            theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+            transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+            // Parallax scrolling
+            // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+            // parallaxBackgroundSize: '2100px 900px',
+
+            // Optional libraries used to extend on reveal.js
+            dependencies: [
+                { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+                { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+            ]
+        });
+      </script>
+  </body>
+</html>
